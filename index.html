@@ -2,161 +2,167 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <title>Shattak</title>
-    <link rel="stylesheet" href="styles.css">
-	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<script>
-		$(document).ready(function(){
-			$(".hamburger .hamburger__inner").click(function(){
-			  $(".wrapper").toggleClass("active")
-			})
+  <link rel="shortcut icon" href="./img/circle-cropped.png">
+  <title>Shattak</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".hamburger .hamburger__inner").click(function () {
+        $(".wrapper").toggleClass("active")
+      })
 
-			$(".top_navbar .fas").click(function(){
-			   $(".profile_dd").toggleClass("active");
-			});
-		})
-	</script>  
+      $(".top_navbar .fas").click(function () {
+        $(".profile_dd").toggleClass("active");
+      });
+    })
+  </script>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-            <div class="mx-3">
-                <a class="navbar-brand" href="index.html"><img class="bd-placeholder-img rounded-circle" width="45"
-                        height="45" src="bulb.jpg" class="d-block w-100" alt="..." alt="My image">
-                </a>
-                <a class="navbar-brand" href="index.html"><img class="bd-placeholder-img rounded-circle" width="45"
-                        height="45" src="bell.png" class="d-block w-100" alt="..." alt="My image">
-                </a>
-                <a class="navbar-brand" href="index.html"><img class="bd-placeholder-img rounded-circle" width="45"
-                        height="45" src="message.png" class="d-block w-100" alt="..." alt="My image">
-                </a>
-                <a class="navbar-brand" href="index.html"><img class="bd-placeholder-img rounded-circle" width="45"
-                        height="45" src="user.png" class="d-block w-100" alt="..." alt="My image">
-                </a>
-                <a class="navbar-brand" href="index.html"><img class="bd-placeholder-img rounded-circle" width="45"
-                        height="45" src="sett.png" class="d-block w-100" alt="..." alt="My image">
-                </a>
-            </div>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
 
+    <div class="mx-3">
+      <a class="navbar-brand" href="index.html"><img class="bd-placeholder-img rounded-circle" width="45" height="45"
+          src="bulb.jpg" class="d-block w-100" alt="..." alt="My image">
+      </a>
+      <a class="navbar-brand" href="index.html"><img class="bd-placeholder-img rounded-circle" width="45" height="45"
+          src="bell.png" class="d-block w-100" alt="..." alt="My image">
+      </a>
+      <a class="navbar-brand" href="index.html"><img class="bd-placeholder-img rounded-circle" width="45" height="45"
+          src="message.png" class="d-block w-100" alt="..." alt="My image">
+      </a>
+      <a class="navbar-brand" href="index.html"><img class="bd-placeholder-img rounded-circle" width="45" height="45"
+          src="user.png" class="d-block w-100" alt="..." alt="My image">
+      </a>
+      <a class="navbar-brand" href="index.html"><img class="bd-placeholder-img rounded-circle" width="45" height="45"
+          src="sett.png" class="d-block w-100" alt="..." alt="My image">
+      </a>
+    </div>
+
+    </div>
+  </nav> -->
+
+  <div class="wrapper">
+    <div class="top_navbar">
+      <div class="hamburger">
+        <div class="hamburger__inner">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
         </div>
-    </nav>
+      </div>
+      <div class="menu">
+        <!-- <a class="navbar-brand" href="index.html"><img class="bd-placeholder-img rounded-circle" style="width: 43px"
+          src="./img/circle-cropped.png" class="d-block w-100" alt="..." alt="My image"> -->
+        <a class="logo" href="#"><b>
+            <h3>Shattak</h3>
+          </b></a>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+            style="width: 700px">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <div class="right_menu">
+          <ul>
+            <div class=" container mx-0 my-5 my-lg-3">
+              <a class="navbar-brand" href="index.html"><img class="bd-placeholder-img rounded-circle " style="width: 55px"
+                  src="./img/bulb.png" class="d-block w-100" alt="..." alt="My image">
+              </a>
+              <a class="navbar-brand" href="index.html"><img class="bd-placeholder-img rounded-circle" style="width: 50px"
+                  src="./img/bell.png" class="d-block w-100" alt="..." alt="My image">
+              </a>
+              <a class="navbar-brand" href="index.html"><img class="bd-placeholder-img rounded-circle" style="width: 60px"
+                  src="./img/message.jpg" class="d-block w-100" alt="..." alt="My image">
+              </a>
+              <a class="navbar-brand" href="index.html"><img class="bd-placeholder-img rounded-circle" style="width: 43px"
+                  src="./img/user.png" class="d-block w-100" alt="..." alt="My image">
+              </a>
+              <a class="navbar-brand" href="index.html"><img class="bd-placeholder-img rounded-circle" style="width: 45px"
+                  src="./img/sett.png" class="d-block w-100" alt="..." alt="My image">
+              </a>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-    <div class="wrapper">
-        <div class="top_navbar">
-          <div class="hamburger">
-             <div class="hamburger__inner">
-               <div class="one"></div>
-               <div class="two"></div>
-               <div class="three"></div>
-             </div>
+    <div class="main_container">
+      <div class="sidebar">
+        <div class="sidebar__inner">
+          <div class="profile">
+            <div class="img">
+              <img src="./img/user.png" alt="profile_pic">
+            </div>
+            <div class="profile_info">
+              <p>Welcome</p>
+              <p class="profile_name">User</p>
+            </div>
           </div>
-          <div class="menu">
-            <a class="logo" href="#"><b>Shattak</b></a>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-            <div class="right_menu">
-              <ul>
-                <div class="form-inline mx-3 my-2 my-lg-3">
-                    <a class="navbar-brand" href="index.html"><img class="bd-placeholder-img rounded-circle " width="45" height="45"
-                    src="./img/bulb.png" class="d-block w-100" alt="..." alt="My image">
-                    </a>
-                    <a class="navbar-brand" href="index.html"><img class="bd-placeholder-img rounded-circle" width="45" height="45"
-                    src="./img/bell.png" class="d-block w-100" alt="..." alt="My image">
-                    </a>
-                    <a class="navbar-brand" href="index.html"><img class="bd-placeholder-img rounded-circle" width="45" height="45"
-                    src="./img/message.jpg" class="d-block w-100" alt="..." alt="My image">
-                    </a>
-                    <a class="navbar-brand" href="index.html"><img class="bd-placeholder-img rounded-circle" width="45" height="45"
-                    src="./img/user.png" class="d-block w-100" alt="..." alt="My image">
-                    </a>
-                    <a class="navbar-brand" href="index.html"><img class="bd-placeholder-img rounded-circle" width="45" height="45"
-                    src="./img/sett.png" class="d-block w-100" alt="..." alt="My image">
-                    </a>
-                </div>
-              </ul>
-            </div>
-          </div>
+          <ul>
+            <li>
+              <a href="#" class="">
+                <span class="icon"><i class="fas fa-dice-d6"></i></span>
+                <span class="title">Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fa fa-desktop"></i></span>
+                <span class="title">Forms</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fab fa-elementor"></i></span>
+                <span class="title">UI Elements</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fas fa-chart-pie"></i></span>
+                <span class="title">Charts</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fas fa-border-all"></i></span>
+                <span class="title">Tables</span>
+              </a>
+            </li>
+          </ul>
         </div>
-          
-        <div class="main_container">
-            <div class="sidebar">
-                <div class="sidebar__inner">
-                  <div class="profile">
-                    <div class="img">
-                      <img src="./img/user.png" alt="profile_pic">
-                    </div>
-                    <div class="profile_info">
-                       <p>Welcome</p>
-                       <p class="profile_name">User</p>
-                    </div>
-                  </div>
-                  <ul>
-                    <li>
-                      <a href="#" class="">
-                        <span class="icon"><i class="fas fa-dice-d6"></i></span>
-                        <span class="title">Dashboard</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span class="icon"><i class="fa fa-desktop"></i></span>
-                        <span class="title">Forms</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span class="icon"><i class="fab fa-elementor"></i></span>
-                        <span class="title">UI Elements</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span class="icon"><i class="fas fa-chart-pie"></i></span>
-                        <span class="title">Charts</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span class="icon"><i class="fas fa-border-all"></i></span>
-                        <span class="title">Tables</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-            </div>
-        </div>
-        
-      </div>	
+      </div>
+    </div>
+
+  </div>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -69,8 +69,8 @@
 
 .top_navbar .menu .logo{
   color: #004D40;
-  text-transform: uppercase;
-  letter-spacing: 7px;
+  /* text-transform: uppercase; */
+  letter-spacing: 3px;
 }
 
 .top_navbar .menu .right_menu ul{
